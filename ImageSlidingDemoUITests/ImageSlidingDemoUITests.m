@@ -2,8 +2,8 @@
 //  ImageSlidingDemoUITests.m
 //  ImageSlidingDemoUITests
 //
-//  Created by Dotsquares on 4/6/16.
-//  Copyright © 2016 Dotsquares. All rights reserved.
+//  Created by WebsoftProfession on 4/6/16.
+//   WebsoftProfession. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

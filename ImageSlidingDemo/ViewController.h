@@ -2,14 +2,18 @@
 //  ViewController.h
 //  ImageSlidingDemo
 //
-//  Created by Dotsquares on 4/6/16.
-//  Copyright © 2016 Dotsquares. All rights reserved.
+//  Created by WebsoftProfession on 4/6/16.
+//   WebsoftProfession. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout,UIScrollViewDelegate>
+{
+    
+    __weak IBOutlet UICollectionView *slideCollectionView;
+    __weak IBOutlet UIPageControl *slidePageControl;
+}
 
 @end
 
